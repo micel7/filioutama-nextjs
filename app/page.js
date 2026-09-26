@@ -1,11 +1,10 @@
 import Navbar from '../components/Navbar';
 import ProjectPortfolio from '../components/ProjectPortfolio';
-import { getProjects } from '../lib/db';
+import Footer from '../components/Footer';
+import { getProjects } from '../data/projects';
 
-export const dynamic = 'force-dynamic';
-
-export default async function HomePage() {
-  const projects = await getProjects();
+export default function HomePage() {
+  const projects = getProjects();
 
   return (
     <>
@@ -36,8 +35,4 @@ export default async function HomePage() {
 
 function Service({ number, title, text }) {
   return <div className="service"><b>{number}</b><p><strong>{title}</strong><span>{text}</span></p></div>;
-}
-
-export function Footer() {
-  return <footer>© {new Date().getFullYear()} PT. Filio Utama. Hak Cipta Dilindungi.</footer>;
 }

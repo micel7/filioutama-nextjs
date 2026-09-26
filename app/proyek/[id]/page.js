@@ -1,14 +1,16 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Navbar from '../../../components/Navbar';
-import { Footer } from '../../page';
-import { getProjectById } from '../../../lib/db';
+import Footer from '../../../components/Footer';
+import { getProjectById, getProjects } from '../../../data/projects';
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  return getProjects().map((project) => ({ id: String(project.id) }));
+}
 
 export default async function ProjectDetailPage({ params }) {
   const { id } = await params;
-  const project = await getProjectById(id);
+  const project = getProjectById(id);
   if (!project) notFound();
 
   return (
@@ -28,7 +30,7 @@ export default async function ProjectDetailPage({ params }) {
         <section className="gallery-wrap">
           {project.description && <p className="detail-description">{project.description}</p>}
           <div className="gallery-grid">
-            {project.images.map((image) => <img key={image.image} src={`/${image.image}`} alt={`${project.title} - dokumentasi proyek`} />)}
+            {project.images.map((image) => <img key={image} src={`/${image}`} alt={`${project.title} - dokumentasi proyek`} />)}
           </div>
         </section>
       </main>
