@@ -1,0 +1,245 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\.npmrc
+5 silly config load:file:C:\Users\LENOVO\.npmrc
+6 silly config load:file:C:\Users\LENOVO\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--force" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\.npm-cache\_logs\2026-09-26T12_35_05_838Z-
+10 verbose logfile E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\.npm-cache\_logs\2026-09-26T12_35_05_838Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@next\swc-win32-arm64-msvc
+17 silly reify mark deleted [
+17 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@next\\swc-win32-arm64-msvc'
+17 silly reify ]
+18 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@next\swc-linux-x64-musl
+19 silly reify mark deleted [
+19 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@next\\swc-linux-x64-musl'
+19 silly reify ]
+20 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@next\swc-linux-x64-gnu
+21 silly reify mark deleted [
+21 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@next\\swc-linux-x64-gnu'
+21 silly reify ]
+22 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@next\swc-linux-arm64-musl
+23 silly reify mark deleted [
+23 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@next\\swc-linux-arm64-musl'
+23 silly reify ]
+24 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@next\swc-linux-arm64-gnu
+25 silly reify mark deleted [
+25 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@next\\swc-linux-arm64-gnu'
+25 silly reify ]
+26 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@next\swc-darwin-x64
+27 silly reify mark deleted [
+27 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@next\\swc-darwin-x64'
+27 silly reify ]
+28 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@next\swc-darwin-arm64
+29 silly reify mark deleted [
+29 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@next\\swc-darwin-arm64'
+29 silly reify ]
+30 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-win32-ia32
+31 silly reify mark deleted [
+31 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-win32-ia32'
+31 silly reify ]
+32 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-win32-arm64
+33 silly reify mark deleted [
+33 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-win32-arm64'
+33 silly reify ]
+34 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-webcontainers-wasm32
+35 silly reify mark deleted [
+35 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-webcontainers-wasm32'
+35 silly reify ]
+36 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-linuxmusl-x64
+37 silly reify mark deleted [
+37 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-linuxmusl-x64'
+37 silly reify ]
+38 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-linuxmusl-arm64
+39 silly reify mark deleted [
+39 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-linuxmusl-arm64'
+39 silly reify ]
+40 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-linux-x64
+41 silly reify mark deleted [
+41 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-linux-x64'
+41 silly reify ]
+42 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-linux-s390x
+43 silly reify mark deleted [
+43 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-linux-s390x'
+43 silly reify ]
+44 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-linux-riscv64
+45 silly reify mark deleted [
+45 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-linux-riscv64'
+45 silly reify ]
+46 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-linux-ppc64
+47 silly reify mark deleted [
+47 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-linux-ppc64'
+47 silly reify ]
+48 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-linux-arm64
+49 silly reify mark deleted [
+49 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-linux-arm64'
+49 silly reify ]
+50 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-linux-arm
+51 silly reify mark deleted [
+51 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-linux-arm'
+51 silly reify ]
+52 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-linuxmusl-x64
+53 silly reify mark deleted [
+53 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+53 silly reify ]
+54 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-linuxmusl-arm64
+55 silly reify mark deleted [
+55 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+55 silly reify ]
+56 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-linux-x64
+57 silly reify mark deleted [
+57 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-linux-x64'
+57 silly reify ]
+58 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-linux-s390x
+59 silly reify mark deleted [
+59 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-linux-s390x'
+59 silly reify ]
+60 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-linux-riscv64
+61 silly reify mark deleted [
+61 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+61 silly reify ]
+62 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-linux-ppc64
+63 silly reify mark deleted [
+63 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+63 silly reify ]
+64 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-linux-arm64
+65 silly reify mark deleted [
+65 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-linux-arm64'
+65 silly reify ]
+66 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-linux-arm
+67 silly reify mark deleted [
+67 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-linux-arm'
+67 silly reify ]
+68 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-darwin-x64
+69 silly reify mark deleted [
+69 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-darwin-x64'
+69 silly reify ]
+70 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-libvips-darwin-arm64
+71 silly reify mark deleted [
+71 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+71 silly reify ]
+72 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-freebsd-wasm32
+73 silly reify mark deleted [
+73 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-freebsd-wasm32'
+73 silly reify ]
+74 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-darwin-x64
+75 silly reify mark deleted [
+75 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-darwin-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency E:\XAMPP 8.2.12\htdocs\filioutama-nextjs\node_modules\@img\sharp-darwin-arm64
+77 silly reify mark deleted [
+77 silly reify   'E:\\XAMPP 8.2.12\\htdocs\\filioutama-nextjs\\node_modules\\@img\\sharp-darwin-arm64'
+77 silly reify ]
+78 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 2ms (cache hit)
+79 http cache styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 0ms (cache hit)
+80 http cache sqlstring@https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.3.tgz 0ms (cache hit)
+81 http cache sharp@https://registry.npmjs.org/sharp/-/sharp-0.35.4.tgz 0ms (cache hit)
+82 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+83 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 0ms (cache hit)
+84 http cache seq-queue@https://registry.npmjs.org/seq-queue/-/seq-queue-0.0.5.tgz 0ms (cache hit)
+85 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.26.0.tgz 0ms (cache hit)
+86 http cache safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+87 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.1.1.tgz 0ms (cache hit)
+88 http cache react@https://registry.npmjs.org/react/-/react-19.1.1.tgz 0ms (cache hit)
+89 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+90 http cache next@https://registry.npmjs.org/next/-/next-15.5.26.tgz 1ms (cache hit)
+91 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.19.tgz 0ms (cache hit)
+92 http cache named-placeholders@https://registry.npmjs.org/named-placeholders/-/named-placeholders-1.1.6.tgz 0ms (cache hit)
+93 http cache mysql2@https://registry.npmjs.org/mysql2/-/mysql2-3.14.4.tgz 0ms (cache hit)
+94 http cache long@https://registry.npmjs.org/long/-/long-5.3.2.tgz 0ms (cache hit)
+95 http cache lru.min@https://registry.npmjs.org/lru.min/-/lru.min-1.1.5.tgz 0ms (cache hit)
+96 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 0ms (cache hit)
+97 http cache iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.3.tgz 0ms (cache hit)
+98 http cache generate-function@https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz 0ms (cache hit)
+99 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+100 http cache is-property@https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz 0ms (cache hit)
+101 http cache denque@https://registry.npmjs.org/denque/-/denque-2.1.0.tgz 0ms (cache hit)
+102 http cache client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 0ms (cache hit)
+103 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001812.tgz 0ms (cache hit)
+104 http cache aws-ssl-profiles@https://registry.npmjs.org/aws-ssl-profiles/-/aws-ssl-profiles-1.1.2.tgz 0ms (cache hit)
+105 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz 0ms (cache hit)
+106 http cache @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.26.tgz 0ms (cache hit)
+107 http cache @next/env@https://registry.npmjs.org/@next/env/-/env-15.5.26.tgz 0ms (cache hit)
+108 http cache @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.4.tgz 0ms (cache hit)
+109 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz 0ms (cache hit)
+110 http cache @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 0ms (cache hit)
+111 http cache @img/sharp-wasm32@https://registry.npmjs.org/@img/sharp-wasm32/-/sharp-wasm32-0.35.4.tgz 0ms (cache hit)
+112 silly ADD node_modules/tslib
+113 silly ADD node_modules/styled-jsx
+114 silly ADD node_modules/sqlstring
+115 silly ADD node_modules/source-map-js
+116 silly ADD node_modules/sharp
+117 silly ADD node_modules/seq-queue
+118 silly ADD node_modules/semver
+119 silly ADD node_modules/scheduler
+120 silly ADD node_modules/safer-buffer
+121 silly ADD node_modules/react-dom
+122 silly ADD node_modules/react
+123 silly ADD node_modules/postcss
+124 silly ADD node_modules/picocolors
+125 silly ADD node_modules/next
+126 silly ADD node_modules/nanoid
+127 silly ADD node_modules/named-placeholders
+128 silly ADD node_modules/mysql2
+129 silly ADD node_modules/lru.min
+130 silly ADD node_modules/long
+131 silly ADD node_modules/is-property
+132 silly ADD node_modules/iconv-lite
+133 silly ADD node_modules/generate-function
+134 silly ADD node_modules/detect-libc
+135 silly ADD node_modules/denque
+136 silly ADD node_modules/client-only
+137 silly ADD node_modules/caniuse-lite
+138 silly ADD node_modules/aws-ssl-profiles
+139 silly ADD node_modules/@swc/helpers
+140 silly ADD node_modules/@next/swc-win32-x64-msvc
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD node_modules/@next/env
+149 silly ADD node_modules/@img/sharp-win32-x64
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 silly ADD node_modules/@img/sharp-wasm32
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD node_modules/@img/colour
+176 silly ADD node_modules/@emnapi/runtime
+177 verbose cwd E:\XAMPP 8.2.12\htdocs\filioutama-nextjs
+178 verbose os Windows_NT 10.0.26200
+179 verbose node v22.16.0
+180 verbose npm  v10.9.2
+181 verbose exit 0
+182 info ok
