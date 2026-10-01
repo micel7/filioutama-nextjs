@@ -26,7 +26,7 @@ export default function ProjectPortfolio({ projects }) {
       </div>
 
       {filteredProjects.length ? (
-        <div className="project-grid">
+        <div className="project-grid" key={category}>
           {filteredProjects.map((project) => (
             <Link className="project-card" href={`/proyek/${project.id}`} key={project.id}>
               {project.cover_image ? (

@@ -14,7 +14,7 @@ export default function HomePage() {
           <div className="intro-wrap">
             <div>
               <p className="eyebrow">INTERIOR · BUILD · RENOVATION</p>
-              <h1>Mewujudkan ruang yang fungsional dan berkarakter.</h1>
+              <h1>Menciptakan ruang yang nyaman dan fungsional.</h1>
               <p className="intro-text">Filio Utama bergerak di bidang pekerjaan sipil, interior, dan renovasi. Kami membantu klien menghadirkan ruang yang rapi, nyaman, dan sesuai kebutuhan.</p>
               <a href="#portofolio" className="gold-button">Lihat Portofolio</a>
             </div>

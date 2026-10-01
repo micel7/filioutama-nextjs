@@ -6,7 +6,7 @@ export default function ContactPage() {
     <>
       <Navbar />
       <main>
-        <section className="detail-hero"><div className="detail-wrap"><p className="eyebrow">FILIO UTAMA</p><h1>Hubungi Kami</h1><p>Mari diskusikan rencana proyek bangunan Anda bersama kami.</p></div></section>
+        <section className="detail-hero contact-hero"><div className="detail-wrap"><p className="eyebrow">FILIO UTAMA</p><h1>Hubungi Kami</h1><p>Mari diskusikan rencana proyek bangunan Anda bersama kami.</p></div></section>
         <section className="contact-wrap">
           <h2>Informasi Kontak</h2>
           <div className="contact-list">
