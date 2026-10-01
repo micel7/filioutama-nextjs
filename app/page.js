@@ -8,11 +8,11 @@ export default function HomePage() {
 
   return (
     <>
-      <Navbar />
+      <Navbar animated />
       <main>
         <section className="company-intro">
           <div className="intro-wrap">
-            <div>
+            <div className="intro-copy">
               <p className="eyebrow">INTERIOR · BUILD · RENOVATION</p>
               <h1>Menciptakan ruang yang nyaman dan fungsional.</h1>
               <p className="intro-text">Filio Utama bergerak di bidang pekerjaan sipil, interior, dan renovasi. Kami membantu klien menghadirkan ruang yang rapi, nyaman, dan sesuai kebutuhan.</p>
