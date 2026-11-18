@@ -64,6 +64,28 @@ const projects = [
       'uploads/projects_images/Booth Maspion/3.jpeg',
     ],
   },
+  {
+    id: 6,
+    title: 'Coming Soon',
+    category: 'interior',
+    description: 'Coming Soon.',
+    location: '',
+    year: '2026',
+    images: [
+      
+    ],
+  },
+  {
+    id: 7,
+    title: 'Coming Soon',
+    category: 'sipil',
+    description: 'Coming Soon.',
+    location: '',
+    year: '2026',
+    images: [
+      
+    ],
+  }
 ];
 
 export function getProjects() {
